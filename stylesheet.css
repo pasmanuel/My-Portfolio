@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.num{
+    display: flex;
+    background-color:white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-bottom: 0.1rem solid;
+    border-bottom-color: orange;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    
+}
+
+.ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 0.8rem;
+    font-weight: 700;
+}
+
+.header > h1{
+    color: white;
+    font-family:cursive
+}
+
+.pre{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: yellow;
+    color:black;
+    font-weight: 900;
+}
+
+.pre:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 4rem;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+    
+.main{
+    background-image: url("./images/clouds.jpg");
+    /* background-color: rgb(200, 195, 195); */
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    line-height: 3rem;
+   padding-top: 2rem;
+}
+
+.div1 > h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+span{
+    color: orange;
+    font-size: 2rem;
+}
+
+.div1 > h2{
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.div1 > p{
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.pro{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 0.2rem solid orange;
+    transition: all 1s ease-in-out;
+}
+
+.header > h1{
+    margin-left:-29rem;
+}
+
+.ul > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: ;
+}
+
+ul > a:hover{
+    
+}
+.button{
+    background-color: orange;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5rem;
+}
+
+.ul > a:hover{
+   background-color:orange ;
+   border-radius: 1rem;
+   color: red;
+   /* padding: 0.3rem; */
+}
+
+.about-image{
+    height: 400px;
+    width: 350px;
+    border-radius: 20% 30%;
+    transition: all 1s ease-in-out;
+}
+
+.section1{
+    display: flex;
+    gap:6rem ;
+    padding-top: 3rem;
+    padding: 4rem;
+}
+
+.section{
+    background-color: black;
+}
+
+.div-about > h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 5rem;
+}
+
+.div-about > p{
+    color: white;
+}
+
+.p{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding-top: 3rem;
+    text-decoration-color: yellow ;
+}
+
+.info{
+    color: white;
+    line-height: 1.8rem;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.container-skills > div{
+    height: 300px;
+    width: 300px;
+   background-color: yellow;
+   margin: 7px;
+   border-radius: 1.5rem;
+   padding: 0.1rem;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 2rem;
+}
+
+.container-skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pro:hover{
+    transform: rotate(360deg);
+    height: 350px;
+    /* width: 350px; */
+    border-radius: 20px 60px 20px;
+    
+    
+}
+
+.about-image:hover{
+   /*transform: rotate(370deg);*/
+   height: 500px;
+   /*width: 350px;*/
+}
+
+.skill{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 2rem;
+}
+
+.igm{
+    height: 10rem;
+    width: 19.1rem;
+    padding: 0.01rem;
+    padding-right: 0.3rem;
+    border-radius: 1.5rem;
+}
+
+.container-skills > div h1{
+    text-align: center;
+    color: red;
+}
+
+/*.container-skills > div{
+    transition:all 1s ease-in-out;
+    height: 1.2rem;
+    width: 1.2rem; 
+}*/
+
+.container-skills > div:hover{
+    transition: all 1s ease-in-out;
+    height: 5rem;
+}
+
+.Services-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.Services-div > div{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.dev{
+    height: 9rem;
+    width: 18.7rem;
+    border-radius: 2rem;
+}
+
+.gra{
+    height: 9rem;
+    width: 18.7rem;
+    border-radius: 2rem;
+}
+
+.dig{
+    border-radius: 2rem;
+    padding-bottom: -2rem;
+}
+
+.ui{
+    height: 9rem;
+    width: 18.7rem;
+    border-radius: 2rem;
+}
+
+.Services100{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+.men > h1{
+    color: red;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: black;
+    padding-top: 2rem;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-top-right-radius: 20% 20% ;
+    border-top-left-radius: 20% 20%;
+}
+
+.contact-div{
+    color: white;
+    padding-top:0;
+    font-size: 2rem;
+}
+
+input{
+    height: 2rem;
+    width: 13rem;
+}
+
+.ta{
+    height:7rem ;
+    width:17rem ;
+}
+
+.button{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.button1{
+    font-size: 1.5rem;
+    background-color: orange;
+    padding: 0.5rem;
+}
